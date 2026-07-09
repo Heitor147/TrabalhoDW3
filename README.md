@@ -43,9 +43,9 @@ cp .env.example .env
 3. Preencha as variáveis no `.env`:
 
 ```
-DATABASE_URL=postgresql://usuario:senha@host/nome_do_banco?sslmode=require
+DATABASE_URL=postgresql://usuario:senha@host/nome_do_banco
 JWT_SECRET=uma_string_secreta_bem_grande_e_aleatoria
-PORT=3333
+PORT=3000
 ```
 
 4. Rode o script `database.sql` no seu banco Postgres para criar todas as tabelas:
@@ -62,12 +62,12 @@ Ou copie e cole o conteúdo do `database.sql` diretamente no editor SQL do seu p
 npm start
 ```
 
-O servidor sobe em `http://localhost:3333`.
+O servidor sobe em `http://localhost:3000`.
 
 A documentação interativa (Swagger) fica disponível em:
 
 ```
-http://localhost:3333/docs
+http://localhost:3000/docs
 ```
 
 ## Autenticação

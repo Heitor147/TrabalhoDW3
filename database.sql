@@ -1,6 +1,6 @@
 -- Database: conversaomoedas
 
--- DROP DATABASE IF EXISTS conversaomoedas;
+DROP DATABASE IF EXISTS conversaomoedas;
 
 CREATE DATABASE conversaomoedas
     WITH
